@@ -69,7 +69,7 @@
 				}
 				foreach ($film['photo'] as $photo)  {
 					if (isset ($photo)){
-						echo "<div class='element-photo'> '<img src='".htmlspecialchars($photo)."'>' </div>";
+						echo "<div class='element-photo'> <img src='".htmlspecialchars($photo)."'> </div>";
 					}
 				} 
 			}	
