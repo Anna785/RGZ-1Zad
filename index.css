@@ -1,0 +1,37 @@
+body {	
+	background-image: url(https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2012/11/Films.jpg);
+	background-attachment: fixed; 
+	background-size: 100% auto; 
+	background-repeat: no-repeat; 
+	background-position: top; 
+	}
+.films-list{
+	margin-bottom:20px;
+	margin-top: 20px;
+	margin-left: 160px; 
+	margin-right: 160px;
+	text-align: justify;
+	padding: 3px; 
+	background: rgba(255, 250, 250, 0.8) 
+	}
+.film-item{
+	margin-bottom:20px; 
+	text-align: center;
+	text-decoration:underline;
+	}
+.film-name{
+	font-weight:bold;
+	}
+.film-description{
+	font-weight:normal;
+	}
+.element-country{
+	font-style: italic;
+	}
+.element-photo{padding:10px; 
+	max-width:100%;height:auto;
+	margin: 0 0 5px 5px;
+	background: rgba(173, 216, 230, 0.8);;
+	text-align: center;  
+	box-shadow: 1px 1px 4px #40310a; 
+	}
