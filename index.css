@@ -30,9 +30,10 @@ body {
 }
 .element-photo{
 	padding:10px; 
-	max-width:100%;height:auto;
+	max-width:100%;
+	height:auto;
 	margin: 0 0 5px 5px;
-	background: rgba(173, 216, 230, 0.8);;
+	background: rgba(173, 216, 230, 0.8);
 	text-align: center;  
 	box-shadow: 1px 1px 4px #40310a; 
 }
