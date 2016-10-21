@@ -61,12 +61,9 @@
 				if (isset ($film['year'])){
 					echo  "Дата выхода: ".htmlspecialchars($film['year']);
 				}
-				foreach ($film['country'] as  $country)  { 
-					if (isset ($country)){
-						echo "<div class='element-country'> Страна: ".htmlspecialchars(implode($film['country'],','))." </div>";
-					}	
-				break;		
-				}
+				if (isset ($film['country'])){
+					echo "<div class='element-country'> Страна: ".htmlspecialchars(implode($film['country'],', '))." </div>";
+				}	
 				foreach ($film['photo'] as $photo)  {
 					if (isset ($photo)){
 						echo "<div class='element-photo'> <img src='".htmlspecialchars($photo)."'> </div>";
